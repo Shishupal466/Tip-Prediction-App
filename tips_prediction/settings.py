@@ -124,3 +124,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     BASE_DIR,'static'
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://tip-prediction-app-3.onrender.com"
+]
